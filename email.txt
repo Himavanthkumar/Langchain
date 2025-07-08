@@ -1,0 +1,11 @@
+//Generated using the drafter.py program try it out
+Dear xyz@email.com,
+
+I am writing to request a leave of absence for one week, starting tomorrow. I will be on a holiday trip during this time.
+
+I have completed all my urgent tasks and made arrangements for my colleagues to cover my responsibilities during my absence. I will have limited access to email. 
+
+Thank you for your consideration.
+
+Sincerely,
+Himavanth
