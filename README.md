@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements a multi-agent system using **LangChain**, **LangGraph**, and **Gemini 2.5 Pro** (Google's large language model). The system consists of five distinct Python scripts, each representing a specialized agent designed to handle specific tasks. These agents are adapted from provided scripts (`Agent bot.py`, `Drafter.py`, `Memory_Agent.py`, `RAG_Agent.py`, `ReAct.py`) and converted to use Gemini 2.5 Pro instead of OpenAI's GPT-4o. Each script is standalone and can be run independently to perform its designated function.
+This project implements a multi-agent system using **LangChain**, **LangGraph**, and **Gemini 2.5 Pro** (Google's large language model). The system consists of five distinct Python scripts, each representing a specialized agent designed to handle specific tasks. These agents are adapted from provided scripts (`Agent bot.py`, `Drafter.py`, `Memory_Agent.py`, `RAG_Agent.py`, `ReAct.py`) and to use gemini-2.0-flash. Each script is standalone and can be run independently to perform its designated function.
 
 ### Agents and Their Purposes
 
@@ -35,7 +35,7 @@ This project implements a multi-agent system using **LangChain**, **LangGraph**,
 
 - **LangChain**: A Python library for building applications with large language models, providing tools for prompts, memory, and tool integration.
 - **LangGraph**: An extension of LangChain for creating stateful, multi-agent workflows as graphs, where nodes represent tasks and edges define flow.
-- **Gemini 2.5 Pro**: Google's advanced language model used for natural language processing and tool-calling.
+- **Gemini 2.0**: Google's advanced language model used for natural language processing and tool-calling.
 - **FAISS**: A library for efficient similarity search, used in the RAG agent for document retrieval.
 - **Python**: The programming language for all scripts, requiring version 3.8 or higher.
 
@@ -225,6 +225,3 @@ Feel free to extend this project by:
 
 For questions or contributions, contact the project maintainer or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details (not included in this repository but can be added).
