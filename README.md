@@ -63,7 +63,7 @@ To run this project, you need:
 3. **Required Python Packages**:
    - Install the necessary libraries using pip:
      ```bash
-     pip install langchain langchain-google-genai langgraph faiss-cpu python-dotenv
+     pip install -r requirements.txt
      ```
 
 ## Setup Instructions
@@ -83,7 +83,7 @@ To run this project, you need:
 3. **Install Dependencies**
    - Run the following command in your terminal to install required packages:
      ```bash
-     pip install langchain langchain-google-genai langgraph faiss-cpu python-dotenv
+     pip install -r requirements.txt
      ```
 
 4. **Verify Setup**
