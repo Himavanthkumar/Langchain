@@ -200,13 +200,7 @@ Each script is standalone and can be run independently. Follow these steps to ru
   Final Answer: 312
   ```
 
-## Notes
 
-- **Document Store**: The RAG agent uses a FAISS vector store with sample documents about the stock market. To use real documents, replace the `sample_docs` list in `rag_agent.py` with your own data (e.g., load a PDF using `PyPDFLoader`).
-- **Tools**: The ReAct and Drafter agents use placeholder tools. You can extend them with real APIs (e.g., a weather API for ReAct).
-- **Gemini 2.5 Pro**: Ensure your Google API key is valid. If you encounter rate limits, check your API quota.
-- **Logging**: The Memory Agent saves logs to `logging.txt`, and the Drafter Agent saves documents to user-specified files (e.g., `note.txt`).
-- **Extensibility**: Add more agents, tools, or documents to enhance functionality.
 
 ## Troubleshooting
 
